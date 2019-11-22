@@ -216,7 +216,7 @@ public class DetailOrderActivity extends FragmentActivity implements OnMapReadyC
         onDetachView();
     }
 
-    @OnClick({R.id.CompleteBooking, R.id.reviewbooking})
+    @OnClick({R.id.CompleteBooking, R.id.reviewbooking, R.id.ProsesBooking})
     public void onViewClicked(View view) {
         session = new SessionManager(this);
         String iduser = session.getIdUser();
@@ -227,13 +227,16 @@ public class DetailOrderActivity extends FragmentActivity implements OnMapReadyC
 
         switch (view.getId()) {
             case R.id.CompleteBooking:
-        presenter.completeBooking(iduser, idbooking, token, device);
+                presenter.completeBooking(iduser, idbooking, token, device);
                 break;
             case R.id.reviewbooking:
-                Intent i = new Intent(this,RatingActivity.class);
-                i.putExtra(IDDRIVER,iddriver);
-                i.putExtra(IDBOOKING,idbooking);
+                Intent i = new Intent(this, RatingActivity.class);
+                i.putExtra(IDDRIVER, iddriver);
+                i.putExtra(IDBOOKING, idbooking);
                 startActivity(i);
+                break;
+            case R.id.ProsesBooking:
+                presenter.TakeBooking(idbooking,iddriver,device,token);
                 break;
         }
     }

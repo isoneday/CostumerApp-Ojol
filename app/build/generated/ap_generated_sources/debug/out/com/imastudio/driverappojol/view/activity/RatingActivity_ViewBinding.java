@@ -20,7 +20,7 @@ import java.lang.Override;
 public class RatingActivity_ViewBinding implements Unbinder {
   private RatingActivity target;
 
-  private View view7f08002c;
+  private View view7f08002d;
 
   @UiThread
   public RatingActivity_ViewBinding(RatingActivity target) {
@@ -42,7 +42,7 @@ public class RatingActivity_ViewBinding implements Unbinder {
     target.cboReview = Utils.findRequiredViewAsType(source, R.id.cboReview, "field 'cboReview'", CheckBox.class);
     view = Utils.findRequiredView(source, R.id.btnReview, "field 'btnReview' and method 'onViewClicked'");
     target.btnReview = Utils.castView(view, R.id.btnReview, "field 'btnReview'", Button.class);
-    view7f08002c = view;
+    view7f08002d = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -68,7 +68,7 @@ public class RatingActivity_ViewBinding implements Unbinder {
     target.cboReview = null;
     target.btnReview = null;
 
-    view7f08002c.setOnClickListener(null);
-    view7f08002c = null;
+    view7f08002d.setOnClickListener(null);
+    view7f08002d = null;
   }
 }

@@ -16,7 +16,7 @@ import pl.bclogic.pulsator4droid.library.PulsatorLayout;
 public class WaitingDriverActivity_ViewBinding implements Unbinder {
   private WaitingDriverActivity target;
 
-  private View view7f08002f;
+  private View view7f080030;
 
   @UiThread
   public WaitingDriverActivity_ViewBinding(WaitingDriverActivity target) {
@@ -31,7 +31,7 @@ public class WaitingDriverActivity_ViewBinding implements Unbinder {
     target.pulsator = Utils.findRequiredViewAsType(source, R.id.pulsator, "field 'pulsator'", PulsatorLayout.class);
     view = Utils.findRequiredView(source, R.id.buttoncancel, "field 'buttoncancel' and method 'onViewClicked'");
     target.buttoncancel = Utils.castView(view, R.id.buttoncancel, "field 'buttoncancel'", Button.class);
-    view7f08002f = view;
+    view7f080030 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -50,7 +50,7 @@ public class WaitingDriverActivity_ViewBinding implements Unbinder {
     target.pulsator = null;
     target.buttoncancel = null;
 
-    view7f08002f.setOnClickListener(null);
-    view7f08002f = null;
+    view7f080030.setOnClickListener(null);
+    view7f080030 = null;
   }
 }

@@ -27,148 +27,228 @@
 18-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:12:5-75
 18-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:12:22-72
 19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
-19-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:10:5-76
-19-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:10:22-73
+19-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:10:5-76
+19-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:10:22-73
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4882c64b33418d4d6e2bb0cb7ae334e3/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
-20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4882c64b33418d4d6e2bb0cb7ae334e3/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/10496f710d269c4bbf750af6c3496e37/play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/10496f710d269c4bbf750af6c3496e37/play-services-maps-17.0.0/AndroidManifest.xml:23:22-76
 21
 22    <uses-feature
-22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4882c64b33418d4d6e2bb0cb7ae334e3/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+22-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/10496f710d269c4bbf750af6c3496e37/play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
 23        android:glEsVersion="0x00020000"
-23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4882c64b33418d4d6e2bb0cb7ae334e3/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+23-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/10496f710d269c4bbf750af6c3496e37/play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
 24        android:required="true" />
-24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4882c64b33418d4d6e2bb0cb7ae334e3/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/10496f710d269c4bbf750af6c3496e37/play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
 25
-26    <application
-26-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:14:5-55:19
-27        android:allowBackup="true"
-27-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:15:9-35
-28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/c0a39027978b83a483a047f5c31d0c4e/core-1.0.1/AndroidManifest.xml:22:18-86
-29        android:debuggable="true"
-30        android:icon="@mipmap/ic_launcher"
-30-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:16:9-43
-31        android:label="@string/app_name"
-31-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:17:9-41
-32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:18:9-54
-33        android:supportsRtl="true"
-33-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:19:9-35
-34        android:testOnly="true"
-35        android:theme="@style/AppTheme"
-35-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:20:9-40
-36        android:usesCleartextTraffic="true" >
-36-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:21:9-44
-37        <activity android:name="com.imastudio.driverappojol.view.activity.RatingActivity" />
-37-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:22:9-75
-37-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:22:19-63
-38        <!--
-39             The API key for Google Maps-based APIs is defined as a string resource.
-40             (See the file "res/values/google_maps_api.xml").
-41             Note that the API key is linked to the encryption key used to sign the APK.
-42             You need a different API key for each encryption key, including the release key that is used to
-43             sign the APK for publishing.
-44             You can define the keys for the debug and release targets in src/debug/ and src/release/.
-45        -->
-46        <meta-data
-46-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:31:9-33:55
-47            android:name="com.google.android.geo.API_KEY"
-47-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:32:13-58
-48            android:value="@string/google_maps_key" />
-48-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:33:13-52
-49
-50        <activity
-50-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:35:9-37:67
-51            android:name="com.imastudio.driverappojol.view.activity.DetailOrderActivity"
-51-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:36:13-62
-52            android:label="@string/title_activity_detail_order" />
-52-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:37:13-64
-53        <activity android:name="com.imastudio.driverappojol.view.activity.HistoryActivity" />
-53-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:38:9-67
-53-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:38:19-64
-54        <activity
-54-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:39:9-41:68
-55            android:name="com.imastudio.driverappojol.view.activity.DetailDriverActivity"
-55-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:40:13-63
-56            android:label="@string/title_activity_detail_driver" />
-56-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:41:13-65
-57        <activity android:name="com.imastudio.driverappojol.view.activity.WaitingDriverActivity" />
-57-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:42:9-73
-57-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:42:19-70
-58        <activity android:name="com.imastudio.driverappojol.view.activity.SplashScreenActivity" >
-58-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:43:9-49:20
-58-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:43:19-69
-59            <intent-filter>
-59-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:44:13-48:29
-60                <action android:name="android.intent.action.MAIN" />
-60-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:45:17-69
-60-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:45:25-66
-61
-62                <category android:name="android.intent.category.LAUNCHER" />
-62-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:47:17-77
-62-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:47:27-74
-63            </intent-filter>
-64        </activity>
-65        <activity
-65-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:50:9-52:59
-66            android:name="com.imastudio.driverappojol.view.activity.MapsActivity"
-66-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:51:13-55
-67            android:label="@string/title_activity_maps" />
-67-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:52:13-56
-68        <activity android:name="com.imastudio.driverappojol.view.activity.AuthActivity" />
-68-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:53:9-64
-68-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:53:19-61
-69        <activity android:name="com.imastudio.driverappojol.MainActivity" />
-69-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:54:9-50
-69-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:54:19-47
-70        <!-- Autocomplete -->
-71        <activity
-71-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:16:9-23:20
-72            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
-72-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:17:13-91
-73            android:exported="false"
-73-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:18:13-37
-74            android:hardwareAccelerated="true"
-74-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:19:13-47
-75            android:label="@string/places_autocomplete_label"
-75-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:20:13-62
-76            android:theme="@style/PlacesAutocompleteThemeOverlay"
-76-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:21:13-66
-77            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
-77-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/37217970343432b04e69f349a631ddfb/places-compat-2.0.0/AndroidManifest.xml:22:13-71
-78        </activity> <!-- Needs to be explicitly declared on P+ -->
-79        <uses-library
-79-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4882c64b33418d4d6e2bb0cb7ae334e3/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
-80            android:name="org.apache.http.legacy"
-80-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4882c64b33418d4d6e2bb0cb7ae334e3/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
-81            android:required="false" />
-81-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4882c64b33418d4d6e2bb0cb7ae334e3/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
-82
-83        <provider
-83-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb7bbb256c8360f607f19ed98d7c761d/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-84            android:name="com.squareup.picasso.PicassoProvider"
-84-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb7bbb256c8360f607f19ed98d7c761d/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-85            android:authorities="com.imastudio.driverappojol.com.squareup.picasso"
-85-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb7bbb256c8360f607f19ed98d7c761d/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-86            android:exported="false" />
-86-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/fb7bbb256c8360f607f19ed98d7c761d/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-87
-88        <activity
-88-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/bd8a4935a17dde33dc1d62d4f9914d3b/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:24:5-68
+26-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:26:22-79
+28
+29    <application
+29-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:14:5-62:19
+30        android:allowBackup="true"
+30-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:15:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/333f0d9d4a1f85c204c46ee8a3138529/core-1.0.1/AndroidManifest.xml:22:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/ic_launcher"
+33-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:16:9-43
+34        android:label="@string/app_name"
+34-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:17:9-41
+35        android:roundIcon="@mipmap/ic_launcher_round"
+35-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:18:9-54
+36        android:supportsRtl="true"
+36-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:19:9-35
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme"
+38-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:20:9-40
+39        android:usesCleartextTraffic="true" >
+39-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:21:9-44
+40        <service android:name="com.imastudio.driverappojol.helper.LocationMonitoringService" />
+40-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:22:1-60
+40-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:22:10-58
+41        <service android:name="com.imastudio.driverappojol.fcm.MyFirebaseMessagingService" >
+41-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:23:9-27:19
+41-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:23:18-64
+42            <intent-filter>
+42-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:24:13-26:29
+43                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+43-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:25:17-78
+43-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:25:25-75
+44            </intent-filter>
+45        </service>
+46
+47        <activity android:name="com.imastudio.driverappojol.view.activity.RatingActivity" />
+47-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:29:9-75
+47-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:29:19-63
+48        <!--
+49             The API key for Google Maps-based APIs is defined as a string resource.
+50             (See the file "res/values/google_maps_api.xml").
+51             Note that the API key is linked to the encryption key used to sign the APK.
+52             You need a different API key for each encryption key, including the release key that is used to
+53             sign the APK for publishing.
+54             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+55        -->
+56        <meta-data
+56-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:38:9-40:55
+57            android:name="com.google.android.geo.API_KEY"
+57-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:39:13-58
+58            android:value="@string/google_maps_key" />
+58-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:40:13-52
+59
+60        <activity
+60-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:42:9-44:67
+61            android:name="com.imastudio.driverappojol.view.activity.DetailOrderActivity"
+61-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:43:13-62
+62            android:label="@string/title_activity_detail_order" />
+62-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:44:13-64
+63        <activity android:name="com.imastudio.driverappojol.view.activity.HistoryActivity" />
+63-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:45:9-67
+63-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:45:19-64
+64        <activity
+64-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:46:9-48:68
+65            android:name="com.imastudio.driverappojol.view.activity.DetailDriverActivity"
+65-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:47:13-63
+66            android:label="@string/title_activity_detail_driver" />
+66-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:48:13-65
+67        <activity android:name="com.imastudio.driverappojol.view.activity.WaitingDriverActivity" />
+67-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:49:9-73
+67-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:49:19-70
+68        <activity android:name="com.imastudio.driverappojol.view.activity.SplashScreenActivity" >
+68-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:50:9-56:20
+68-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:50:19-69
+69            <intent-filter>
+69-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:51:13-55:29
+70                <action android:name="android.intent.action.MAIN" />
+70-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:52:17-69
+70-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:52:25-66
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+72-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:54:17-77
+72-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:54:27-74
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:57:9-59:59
+76            android:name="com.imastudio.driverappojol.view.activity.MapsActivity"
+76-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:58:13-55
+77            android:label="@string/title_activity_maps" />
+77-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:59:13-56
+78        <activity android:name="com.imastudio.driverappojol.view.activity.AuthActivity" />
+78-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:60:9-64
+78-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:60:19-61
+79        <activity android:name="com.imastudio.driverappojol.MainActivity" />
+79-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:61:9-50
+79-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:61:19-47
+80        <!-- Autocomplete -->
+81        <activity
+81-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:16:9-23:20
+82            android:name="com.google.android.libraries.places.widget.AutocompleteActivity"
+82-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:17:13-91
+83            android:exported="false"
+83-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:18:13-37
+84            android:hardwareAccelerated="true"
+84-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:19:13-47
+85            android:label="@string/places_autocomplete_label"
+85-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:20:13-62
+86            android:theme="@style/PlacesAutocompleteThemeOverlay"
+86-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:21:13-66
+87            android:windowSoftInputMode="stateAlwaysVisible|adjustPan" >
+87-->[com.google.android.libraries.places:places-compat:2.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/19f38fce0c19a715ad5234af941f18d4/places-compat-2.0.0/AndroidManifest.xml:22:13-71
+88        </activity> <!-- Needs to be explicitly declared on P+ -->
+89        <uses-library
+89-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/10496f710d269c4bbf750af6c3496e37/play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+90            android:name="org.apache.http.legacy"
+90-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/10496f710d269c4bbf750af6c3496e37/play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+91            android:required="false" />
+91-->[com.google.android.gms:play-services-maps:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/10496f710d269c4bbf750af6c3496e37/play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
 92
-93        <meta-data
-93-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6812095ccd27597def2c619b721588d6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-94            android:name="com.google.android.gms.version"
-94-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6812095ccd27597def2c619b721588d6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-95            android:value="@integer/google_play_services_version" />
-95-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/6812095ccd27597def2c619b721588d6/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-96    </application>
-97
-98</manifest>
+93        <provider
+93-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/4b7936363ce6d4df183488d657b208a0/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+94            android:name="com.squareup.picasso.PicassoProvider"
+94-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/4b7936363ce6d4df183488d657b208a0/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+95            android:authorities="com.imastudio.driverappojol.com.squareup.picasso"
+95-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/4b7936363ce6d4df183488d657b208a0/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+96            android:exported="false" />
+96-->[com.squareup.picasso:picasso:2.71828] /Users/mac/.gradle/caches/transforms-2/files-2.1/4b7936363ce6d4df183488d657b208a0/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+97        <!--
+98             FirebaseMessagingService performs security checks at runtime,
+99             but set to not exported to explicitly avoid allowing another app to call it.
+100        -->
+101        <service
+101-->[com.google.firebase:firebase-messaging:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7ca6d617739941fe8cf420d9064682ed/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
+102            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+102-->[com.google.firebase:firebase-messaging:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7ca6d617739941fe8cf420d9064682ed/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
+103            android:exported="false" >
+103-->[com.google.firebase:firebase-messaging:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/7ca6d617739941fe8cf420d9064682ed/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
+104            <intent-filter android:priority="-500" >
+104-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:24:13-26:29
+105                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+105-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:25:17-78
+105-->/Users/mac/imastudio/training/temp/driverappojol/app/src/main/AndroidManifest.xml:25:25-75
+106            </intent-filter>
+107        </service>
+108        <service
+108-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:29:9-35:19
+109            android:name="com.google.firebase.components.ComponentDiscoveryService"
+109-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:30:13-84
+110            android:directBootAware="true"
+110-->[com.google.firebase:firebase-common:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/06ec54fa215c4869063d78d4b840bd64/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:31:13-37
+112            <meta-data
+112-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:32:13-34:85
+113                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+113-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:33:17-96
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:34:17-82
+115        </service>
+116
+117        <receiver
+117-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:37:9-44:20
+118            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+118-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:38:13-78
+119            android:exported="true"
+119-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:39:13-36
+120            android:permission="com.google.android.c2dm.permission.SEND" >
+120-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:40:13-73
+121            <intent-filter>
+121-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:41:13-43:29
+122                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+122-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:42:17-81
+122-->[com.google.firebase:firebase-iid:20.0.1] /Users/mac/.gradle/caches/transforms-2/files-2.1/a16fe70d630c445747896e733ad01f6a/firebase-iid-20.0.1/AndroidManifest.xml:42:25-78
+123            </intent-filter>
+124        </receiver>
+125
+126        <activity
+126-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4fd23f1c0a576ef4883220502e5e1d72/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+127            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+127-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4fd23f1c0a576ef4883220502e5e1d72/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4fd23f1c0a576ef4883220502e5e1d72/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-base:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/4fd23f1c0a576ef4883220502e5e1d72/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+130
+131        <provider
+131-->[com.google.firebase:firebase-common:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/06ec54fa215c4869063d78d4b840bd64/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+132            android:name="com.google.firebase.provider.FirebaseInitProvider"
+132-->[com.google.firebase:firebase-common:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/06ec54fa215c4869063d78d4b840bd64/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+133            android:authorities="com.imastudio.driverappojol.firebaseinitprovider"
+133-->[com.google.firebase:firebase-common:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/06ec54fa215c4869063d78d4b840bd64/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+134            android:exported="false"
+134-->[com.google.firebase:firebase-common:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/06ec54fa215c4869063d78d4b840bd64/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+135            android:initOrder="100" />
+135-->[com.google.firebase:firebase-common:19.2.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/06ec54fa215c4869063d78d4b840bd64/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/e432ed4cac42369823bac5b3e91dcf35/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/e432ed4cac42369823bac5b3e91dcf35/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:17.0.0] /Users/mac/.gradle/caches/transforms-2/files-2.1/e432ed4cac42369823bac5b3e91dcf35/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+140    </application>
+141
+142</manifest>

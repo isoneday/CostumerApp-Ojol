@@ -21,5 +21,6 @@
     <string name="title_activity_makanan">MakananActivity</string>
     <string name="titlelogin">login</string>
     <string name="title_activity_detail_order">Map</string>
+    <string name="resionable">res</string>
 
 </resources>

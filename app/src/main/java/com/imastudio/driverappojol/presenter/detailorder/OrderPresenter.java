@@ -71,6 +71,35 @@ public class OrderPresenter implements OrderContract.Presenter {
     }
 
     @Override
+    public void TakeBooking(String idbooking, String iddriver, String device, String token) {
+        detailOrderView.showLoading("Proses take booking");
+        InitRetrofit.getInstance().takeBooking(idbooking, iddriver, device, token)
+                .enqueue(new Callback<ResponseHistory>() {
+                    @Override
+                    public void onResponse(Call<ResponseHistory> call, Response<ResponseHistory> response) {
+                        detailOrderView.hideLoading();
+                        if (response.isSuccessful()){
+                            String result = response.body().getResult();
+                            String msg = response.body().getMsg();
+                            if (result.equals("true")){
+                                detailOrderView.showMsg(msg);
+                                detailOrderView.pindahHalaman();
+
+                            }else{
+                                detailOrderView.showMsg(msg);
+
+                            }
+                        }
+                    }
+
+                    @Override
+                    public void onFailure(Call<ResponseHistory> call, Throwable t) {
+
+                    }
+                });
+    }
+
+    @Override
     public void onAttach(BaseView view) {
         this.view = view;
     }

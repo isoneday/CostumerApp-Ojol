@@ -189,6 +189,17 @@
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="PROSES BOOKING"
+                android:id="@+id/ProsesBooking"
+                android:layout_marginTop="20dp"
+                android:background="#000"
+                android:visibility="gone"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="COMPLETE BOOKING"
                 android:id="@+id/CompleteBooking"
                 android:layout_marginTop="20dp"

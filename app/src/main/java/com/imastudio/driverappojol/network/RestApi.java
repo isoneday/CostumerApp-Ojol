@@ -55,6 +55,31 @@ public interface RestApi {
             @Field("f_device") String strdevice,
             @Field("f_token") String strtoken
     );
+ //send token to db
+    @FormUrlEncoded
+    @POST("registerGcm")
+    Call<ResponseHistory> registerToken(
+            @Field("f_idUser") String striduser,
+            @Field("f_gcm") String strfcm
+    );
+//Take Booking/order
+    @FormUrlEncoded
+    @POST("take_booking")
+    Call<ResponseHistory> takeBooking(
+            @Field("id") String stridbooking,
+            @Field("f_iddriver") String strIddriver,
+            @Field("f_device") String strdevice,
+            @Field("f_token") String strtoken
+    );
+    @FormUrlEncoded
+    @POST("insert_posisi")
+    Call<ResponseHistory> insertPosisiDriver(
+                    @Field("f_idUser") String iddriver,
+                    @Field("f_lat") String latitude,
+                    @Field("f_lng") String longitude,
+                    @Field("f_device") String device,
+                    @Field("f_token") String token
+    );
 
 
     @GET("json")

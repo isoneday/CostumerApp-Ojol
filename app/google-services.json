@@ -1,0 +1,151 @@
+{
+  "project_info": {
+    "project_number": "782346170848",
+    "firebase_url": "https://training-firebase-a9cbf.firebaseio.com",
+    "project_id": "training-firebase-a9cbf",
+    "storage_bucket": "training-firebase-a9cbf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782346170848:android:3eb5d8ecbcd079833ebb85",
+        "android_client_info": {
+          "package_name": "asdsa.com.ci"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782346170848-r4vvp6p4qa9pokarjbbhar56op58d7j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmoz2spfEL9dNFmNiXsr2bYTxbw-SJHAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782346170848-r4vvp6p4qa9pokarjbbhar56op58d7j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782346170848:android:f4e962b2441becab3ebb85",
+        "android_client_info": {
+          "package_name": "com.imastudio.aplikasi_flutter_basic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782346170848-j3f4o4o13u3bf45gr8ibqj03eplq34iv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imastudio.aplikasi_flutter_basic",
+            "certificate_hash": "dbd967fc26bbaf48a6471b0d5fe9813963172ea8"
+          }
+        },
+        {
+          "client_id": "782346170848-r4vvp6p4qa9pokarjbbhar56op58d7j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmoz2spfEL9dNFmNiXsr2bYTxbw-SJHAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782346170848-r4vvp6p4qa9pokarjbbhar56op58d7j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782346170848:android:8eb8a8e4e70a048a3ebb85",
+        "android_client_info": {
+          "package_name": "com.imastudio.driverappojol"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782346170848-lomqf615mb8sm16r54e2m0pfi6013rs5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imastudio.driverappojol",
+            "certificate_hash": "dbd967fc26bbaf48a6471b0d5fe9813963172ea8"
+          }
+        },
+        {
+          "client_id": "782346170848-r4vvp6p4qa9pokarjbbhar56op58d7j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmoz2spfEL9dNFmNiXsr2bYTxbw-SJHAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782346170848-r4vvp6p4qa9pokarjbbhar56op58d7j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782346170848:android:7c61207d45af6a333ebb85",
+        "android_client_info": {
+          "package_name": "com.imastudio.firebase_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782346170848-f2qq5et15742b614vv45cl31v1acblh9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.imastudio.firebase_app",
+            "certificate_hash": "dbd967fc26bbaf48a6471b0d5fe9813963172ea8"
+          }
+        },
+        {
+          "client_id": "782346170848-r4vvp6p4qa9pokarjbbhar56op58d7j4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmoz2spfEL9dNFmNiXsr2bYTxbw-SJHAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782346170848-r4vvp6p4qa9pokarjbbhar56op58d7j4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

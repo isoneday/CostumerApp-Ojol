@@ -18,7 +18,9 @@ public class DetailOrderActivity_ViewBinding implements Unbinder {
 
   private View view7f080004;
 
-  private View view7f0800c6;
+  private View view7f0800c7;
+
+  private View view7f080009;
 
   @UiThread
   public DetailOrderActivity_ViewBinding(DetailOrderActivity target) {
@@ -53,7 +55,15 @@ public class DetailOrderActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.reviewbooking, "field 'reviewbooking' and method 'onViewClicked'");
     target.reviewbooking = Utils.castView(view, R.id.reviewbooking, "field 'reviewbooking'", Button.class);
-    view7f0800c6 = view;
+    view7f0800c7 = view;
+    view.setOnClickListener(new DebouncingOnClickListener() {
+      @Override
+      public void doClick(View p0) {
+        target.onViewClicked(p0);
+      }
+    });
+    view = Utils.findRequiredView(source, R.id.ProsesBooking, "method 'onViewClicked'");
+    view7f080009 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -86,7 +96,9 @@ public class DetailOrderActivity_ViewBinding implements Unbinder {
 
     view7f080004.setOnClickListener(null);
     view7f080004 = null;
-    view7f0800c6.setOnClickListener(null);
-    view7f0800c6 = null;
+    view7f0800c7.setOnClickListener(null);
+    view7f0800c7 = null;
+    view7f080009.setOnClickListener(null);
+    view7f080009 = null;
   }
 }

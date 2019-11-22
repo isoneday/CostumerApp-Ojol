@@ -1587,6 +1587,7 @@ id Decelerate
 id FUNCTION
 id Linear
 id META
+id ProsesBooking
 id SHIFT
 id SYM
 id action0
@@ -1995,6 +1996,7 @@ mipmap ic_find
 mipmap ic_launcher
 mipmap ic_launcher_round
 mipmap ic_pickup
+raw consequence
 raw places_keep
 string abc_action_bar_home_description
 string abc_action_bar_up_description
@@ -2058,9 +2060,17 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string default_web_client_id
 string fab_transformation_scrim_behavior
 string fab_transformation_sheet_behavior
+string fcm_fallback_notification_channel_label
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
 string google_maps_key
+string google_storage_bucket
 string hello_blank_fragment
 string hide_bottom_view_on_scroll_behavior
 string login
@@ -2084,10 +2094,12 @@ string places_powered_by_google
 string places_search_error
 string places_try_again
 string posregis
+string project_id
 string requireemail
 string requirename
 string requirepassword
 string requirephone
+string resionable
 string search_menu_title
 string status_bar_notification_info_overflow
 string str_cancel

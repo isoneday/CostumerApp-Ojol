@@ -19,13 +19,13 @@ import java.lang.Override;
 public class MapsActivity_ViewBinding implements Unbinder {
   private MapsActivity target;
 
-  private View view7f08006d;
-
-  private View view7f08007d;
+  private View view7f08006e;
 
   private View view7f08007e;
 
-  private View view7f0800c3;
+  private View view7f08007f;
+
+  private View view7f0800c4;
 
   @UiThread
   public MapsActivity_ViewBinding(MapsActivity target) {
@@ -39,7 +39,7 @@ public class MapsActivity_ViewBinding implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.imgpick, "field 'imgpick' and method 'onViewClicked'");
     target.imgpick = Utils.castView(view, R.id.imgpick, "field 'imgpick'", ImageView.class);
-    view7f08006d = view;
+    view7f08006e = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -48,7 +48,7 @@ public class MapsActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.lokasiawal, "field 'lokasiawal' and method 'onViewClicked'");
     target.lokasiawal = Utils.castView(view, R.id.lokasiawal, "field 'lokasiawal'", TextView.class);
-    view7f08007d = view;
+    view7f08007e = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -57,7 +57,7 @@ public class MapsActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.lokasitujuan, "field 'lokasitujuan' and method 'onViewClicked'");
     target.lokasitujuan = Utils.castView(view, R.id.lokasitujuan, "field 'lokasitujuan'", TextView.class);
-    view7f08007e = view;
+    view7f08007f = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -70,7 +70,7 @@ public class MapsActivity_ViewBinding implements Unbinder {
     target.txtdurasi = Utils.findRequiredViewAsType(source, R.id.txtdurasi, "field 'txtdurasi'", TextView.class);
     view = Utils.findRequiredView(source, R.id.requestorder, "field 'requestorder' and method 'onViewClicked'");
     target.requestorder = Utils.castView(view, R.id.requestorder, "field 'requestorder'", Button.class);
-    view7f0800c3 = view;
+    view7f0800c4 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -97,13 +97,13 @@ public class MapsActivity_ViewBinding implements Unbinder {
     target.requestorder = null;
     target.rootlayout = null;
 
-    view7f08006d.setOnClickListener(null);
-    view7f08006d = null;
-    view7f08007d.setOnClickListener(null);
-    view7f08007d = null;
+    view7f08006e.setOnClickListener(null);
+    view7f08006e = null;
     view7f08007e.setOnClickListener(null);
     view7f08007e = null;
-    view7f0800c3.setOnClickListener(null);
-    view7f0800c3 = null;
+    view7f08007f.setOnClickListener(null);
+    view7f08007f = null;
+    view7f0800c4.setOnClickListener(null);
+    view7f0800c4 = null;
   }
 }

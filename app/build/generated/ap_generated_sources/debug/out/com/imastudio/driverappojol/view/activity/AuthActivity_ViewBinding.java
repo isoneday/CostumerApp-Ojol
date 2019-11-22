@@ -17,9 +17,9 @@ import java.lang.Override;
 public class AuthActivity_ViewBinding implements Unbinder {
   private AuthActivity target;
 
-  private View view7f08002d;
+  private View view7f08002e;
 
-  private View view7f08002b;
+  private View view7f08002c;
 
   @UiThread
   public AuthActivity_ViewBinding(AuthActivity target) {
@@ -34,7 +34,7 @@ public class AuthActivity_ViewBinding implements Unbinder {
     target.txtRiderApp = Utils.findRequiredViewAsType(source, R.id.txt_rider_app, "field 'txtRiderApp'", TextView.class);
     view = Utils.findRequiredView(source, R.id.btnSignIn, "field 'btnSignIn' and method 'onViewClicked'");
     target.btnSignIn = Utils.castView(view, R.id.btnSignIn, "field 'btnSignIn'", Button.class);
-    view7f08002d = view;
+    view7f08002e = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -43,7 +43,7 @@ public class AuthActivity_ViewBinding implements Unbinder {
     });
     view = Utils.findRequiredView(source, R.id.btnRegister, "field 'btnRegister' and method 'onViewClicked'");
     target.btnRegister = Utils.castView(view, R.id.btnRegister, "field 'btnRegister'", Button.class);
-    view7f08002b = view;
+    view7f08002c = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -65,9 +65,9 @@ public class AuthActivity_ViewBinding implements Unbinder {
     target.btnRegister = null;
     target.rootlayout = null;
 
-    view7f08002d.setOnClickListener(null);
-    view7f08002d = null;
-    view7f08002b.setOnClickListener(null);
-    view7f08002b = null;
+    view7f08002e.setOnClickListener(null);
+    view7f08002e = null;
+    view7f08002c.setOnClickListener(null);
+    view7f08002c = null;
   }
 }
