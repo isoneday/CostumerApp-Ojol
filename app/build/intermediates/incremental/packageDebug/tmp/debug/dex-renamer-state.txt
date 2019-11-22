@@ -1,0 +1,4 @@
+#Fri Nov 22 10:21:18 WIB 2019
+base.0=/Users/mac/imastudio/training/temp/driverappojol/app/build/intermediates/dex/debug/mergeDexDebug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
