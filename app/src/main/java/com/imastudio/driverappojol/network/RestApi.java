@@ -35,6 +35,28 @@ public interface RestApi {
             @Field("device") String strdevice
     );
 
+    //history request
+    @GET("get_request_booking")
+    Call<ResponseHistory> getRequestHistory();
+
+    //history proses
+    @FormUrlEncoded
+    @POST("get_handle_booking")
+    Call<ResponseHistory> getProsesHistory(
+            @Field("f_idUser") String striduser,
+            @Field("f_device") String strdevice,
+            @Field("f_token") String strtoken
+    );
+    //history complete
+    @FormUrlEncoded
+    @POST("get_complete_booking")
+    Call<ResponseHistory> getCompleteHistory(
+            @Field("f_idUser") String striduser,
+            @Field("f_device") String strdevice,
+            @Field("f_token") String strtoken
+    );
+
+
     @GET("json")
     Call<ResponseMap> getDataMap(
             @Query("origin") String origin,
@@ -82,6 +104,7 @@ public interface RestApi {
     Call<ResponseDetailDriver> getDetailDriver(
             @Field("f_iddriver") String striddriver
     );
+
     @FormUrlEncoded
     @POST("get_booking")
     Call<ResponseHistory> getDataHistory(
@@ -90,7 +113,8 @@ public interface RestApi {
             @Field("f_token") String f_token,
             @Field("f_device") String f_device
     );
-@FormUrlEncoded
+
+    @FormUrlEncoded
     @POST("complete_booking_from_user")
     Call<ResponseHistory> completeBooking(
             @Field("f_idUser") String striduser,
@@ -98,7 +122,8 @@ public interface RestApi {
             @Field("f_token") String f_token,
             @Field("f_device") String f_device
     );
-@FormUrlEncoded
+
+    @FormUrlEncoded
     @POST("insert_review")
     Call<ResponseHistory> ratingDriver(
             @Field("f_idUser") String striduser,

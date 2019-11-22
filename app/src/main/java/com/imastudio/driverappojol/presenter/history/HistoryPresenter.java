@@ -15,7 +15,8 @@ public class HistoryPresenter implements HistoryContract.Presenter {
 
     HistoryContract.View historyView;
     BaseView view;
-    public static List<DataHistory> dataHistory;
+    public static List<DataHistory> dataHistoryRequest;
+    public static List<DataHistory> dataHistoryProses;
     public static List<DataHistory> dataHistoryComplete;
 
     public HistoryPresenter(HistoryContract.View view) {
@@ -26,8 +27,35 @@ public class HistoryPresenter implements HistoryContract.Presenter {
     public void getDataHistory(String iduser, String status, String token, String device) {
 
         historyView.showLoading("proses get data history");
-        if (status.equals("2")) {
-            InitRetrofit.getInstance().getDataHistory(iduser, status, token, device).enqueue(new Callback<ResponseHistory>() {
+      if (status.equals("1")){
+
+          InitRetrofit.getInstance().getRequestHistory().enqueue(new Callback<ResponseHistory>() {
+              @Override
+              public void onResponse(Call<ResponseHistory> call, Response<ResponseHistory> response) {
+            historyView.hideLoading();
+            if (response.isSuccessful()){
+                String result = response.body().getResult();
+                String msg = response.body().getMsg();
+                if (result.equals("true")){
+                    historyView.showMsg(msg);
+                    dataHistoryRequest = response.body().getData();
+                    historyView.dataHistory(dataHistoryRequest);
+
+                }else {
+                    historyView.showMsg(msg);
+
+                }
+            }
+              }
+
+              @Override
+              public void onFailure(Call<ResponseHistory> call, Throwable t) {
+
+              }
+          });
+      }
+       else if (status.equals("2")) {
+            InitRetrofit.getInstance().getProsesHistory(iduser, token, device).enqueue(new Callback<ResponseHistory>() {
                 @Override
                 public void onResponse(Call<ResponseHistory> call, Response<ResponseHistory> response) {
                     historyView.hideLoading();
@@ -36,8 +64,8 @@ public class HistoryPresenter implements HistoryContract.Presenter {
                         String msg = response.body().getMsg();
                         if (result.equals("true")) {
                             historyView.showMsg(msg);
-                            dataHistory = response.body().getData();
-                            historyView.dataHistory(dataHistory);
+                            dataHistoryProses = response.body().getData();
+                            historyView.dataHistory(dataHistoryProses);
                         } else {
                             historyView.showMsg(msg);
 
@@ -53,7 +81,7 @@ public class HistoryPresenter implements HistoryContract.Presenter {
                 }
             });
         } else if (status.equals("4")) {
-            InitRetrofit.getInstance().getDataHistory(iduser, status, token, device).enqueue(new Callback<ResponseHistory>() {
+            InitRetrofit.getInstance().getCompleteHistory(iduser, token, device).enqueue(new Callback<ResponseHistory>() {
                 @Override
                 public void onResponse(Call<ResponseHistory> call, Response<ResponseHistory> response) {
                     historyView.hideLoading();

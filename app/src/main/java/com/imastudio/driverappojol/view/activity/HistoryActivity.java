@@ -25,6 +25,7 @@ public class HistoryActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_history);
         ButterKnife.bind(this);
+        tablayout.addTab(tablayout.newTab().setText("Request"));
         tablayout.addTab(tablayout.newTab().setText("Proses"));
         tablayout.addTab(tablayout.newTab().setText("Selesai"));
         PagerAdapter adapter = new CustomPagerAdapter(getSupportFragmentManager());

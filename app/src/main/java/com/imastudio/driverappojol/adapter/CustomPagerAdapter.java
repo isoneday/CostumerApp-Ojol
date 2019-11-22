@@ -15,6 +15,8 @@ public class CustomPagerAdapter extends FragmentStatePagerAdapter {
     @Override
     public Fragment getItem(int position) {
         if (position==0){
+            return new HistoryFragment(1);
+        }else if (position==1){
             return new HistoryFragment(2);
         }else{
             return new HistoryFragment(4);
@@ -23,6 +25,6 @@ public class CustomPagerAdapter extends FragmentStatePagerAdapter {
 
     @Override
     public int getCount() {
-        return 2;
+        return 3;
     }
 }

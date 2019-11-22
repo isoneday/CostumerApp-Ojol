@@ -89,9 +89,12 @@ public class DetailOrderActivity extends FragmentActivity implements OnMapReadyC
 
         index = getIntent().getIntExtra(INDEX, 0);
         status = getIntent().getIntExtra(STATUS, 0);
-        if (status == 2) {
+        if (status == 1) {
 
-            dataHistory = HistoryPresenter.dataHistory.get(index);
+            dataHistory = HistoryPresenter.dataHistoryRequest.get(index);
+        } else if (status == 2) {
+
+            dataHistory = HistoryPresenter.dataHistoryProses.get(index);
         } else {
             dataHistory = HistoryPresenter.dataHistoryComplete.get(index);
             CompleteBooking.setVisibility(View.GONE);
